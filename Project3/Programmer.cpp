@@ -18,7 +18,7 @@ Programmer::Programmer(const char* N, int a, const char* P, const char* C):Human
 	strcpy_s(Position, strlen(P) + 1, P);
 
 	Company = new char[strlen(C) + 1];
-	strcpy_s(Position, strlen(C) + 1, C);
+	strcpy_s(Company, strlen(C) + 1, C);
 }
 
 void Programmer::Output()
@@ -31,8 +31,11 @@ void Programmer::Output()
 
 void Programmer::Input()
 {
+
 }
 
 Programmer::~Programmer()
 {
+	delete[] Company;
+	delete[] Position;
 }

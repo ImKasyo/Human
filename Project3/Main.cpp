@@ -11,7 +11,7 @@ int main()
 	a.Input("Irina",20,"Politex",200);
 	a.Output();
 
-	Programmer b("Maks", 30, "Trainee", "Apple");
+	Programmer b("Maks",30,"Trainee","Apple");
 	b.Output();
 
 }
