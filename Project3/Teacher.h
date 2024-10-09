@@ -7,7 +7,7 @@ public:
 	Teacher();
 	Teacher(const char* N, int a, const char* S);
 	~Teacher();
-	void Input();
+	void Input(const char* N, int a, const char* S);
 	void Output();
 };
 

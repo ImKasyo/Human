@@ -2,6 +2,7 @@
 #include "Human.h"
 #include "Student.h"
 #include "Programmer.h"
+#include "Teacher.h"
 using namespace std;
 
 int main()
@@ -15,5 +16,10 @@ int main()
 	b.Output();
 	b.Input("Jack", 19, "Junior", "Samsung");
 	b.Output();
+
+	Teacher c("Ira", 43, "Math");
+	c.Output();
+	c.Input("Mihael", 32, "Unity");
+	c.Output();
 
 }
