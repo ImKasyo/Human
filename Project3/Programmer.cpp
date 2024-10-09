@@ -23,6 +23,10 @@ Programmer::Programmer(const char* N, int a, const char* P, const char* C):Human
 
 void Programmer::Output()
 {
+	cout << "Output Student:";
+	Human::Output();
+	cout << "Position:" << Position << endl;
+	cout << "Company:" << Company << endl;
 }
 
 void Programmer::Input()
