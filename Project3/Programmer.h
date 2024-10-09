@@ -8,7 +8,7 @@ public:
 	Programmer();
 	Programmer(const char* n, int a, const char* P, const char* C);
 	void Output();
-	void Input();
+	void Input(const char* N, int a, const char* C, const char* P);
 	~Programmer();
 };
 
