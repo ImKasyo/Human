@@ -13,5 +13,6 @@ int main()
 
 	Programmer b("Maks",30,"Trainee","Apple");
 	b.Output();
+	b.Input("Jack", 19, "Junior", "Samsung");
 
 }
