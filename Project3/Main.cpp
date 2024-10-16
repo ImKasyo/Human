@@ -3,6 +3,7 @@
 #include "Student.h"
 #include "Programmer.h"
 #include "Teacher.h"
+#include "Disagner.h"
 using namespace std;
 
 int main()
@@ -21,5 +22,8 @@ int main()
 	c.Output();
 	c.Input("Mihael", 32, "Unity");
 	c.Output();
+
+	Disagner d("Katya", 25, "Trainee", "Apple");
+	d.Output();
 
 }

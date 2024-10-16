@@ -6,7 +6,7 @@ class Disagner :public Human
 	char* Company;
 public:
 	Disagner();
-	Disagner(char* p, char* c);
+	Disagner(const char* N, int a, const char* p, const  char* c);
 	void Output();
 	void Salary();
 	~Disagner();

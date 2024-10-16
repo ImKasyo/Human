@@ -8,7 +8,7 @@ Disagner::Disagner()
 	Company = nullptr;
 }
 
-Disagner::Disagner(char* p, char* c)
+Disagner::Disagner(const char* N, int a, const  char* p, const  char* c): Human(N, a)
 {
 	Position = new char[strlen(p) + 1];
 	strcpy_s(Position, strlen(p) + 1, p);
@@ -19,6 +19,7 @@ Disagner::Disagner(char* p, char* c)
 
 void Disagner::Output()
 {
+	Human::Output();
 	cout << "Position: " << Position << ", Company: " << Company;
 }
 
