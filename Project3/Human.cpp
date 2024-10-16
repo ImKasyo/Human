@@ -36,6 +36,12 @@ void Human::Input() // ввод с клавиатуры
 	cin >> age;
 
 }
+
+void Human::Salary()
+{
+	cout << "Salary is not undefined";
+}
+
 Human::~Human()
 {
 	delete[] name;

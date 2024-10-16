@@ -26,4 +26,7 @@ int main()
 	Disagner d("Katya", 25, "Trainee", "Apple");
 	d.Output();
 
+
+
+
 }

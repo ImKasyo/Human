@@ -41,3 +41,8 @@ void Teacher::Output()
     Human::Output();
     cout << "Subject: " << subject << endl;
 }
+
+void Teacher::Salary()
+{
+    cout << "Salary: 1500$";
+}

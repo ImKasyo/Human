@@ -55,3 +55,8 @@ Programmer::~Programmer()
 	delete[] Company;
 	delete[] Position;
 }
+
+void Programmer::Salary()
+{
+	cout << "Salary: 3500$";
+}

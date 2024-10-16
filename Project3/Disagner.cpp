@@ -25,6 +25,7 @@ void Disagner::Output()
 
 void Disagner::Salary()
 {
+	cout << "Salary: 2000$";
 }
 
 Disagner::~Disagner()

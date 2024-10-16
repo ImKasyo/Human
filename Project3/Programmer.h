@@ -10,5 +10,6 @@ public:
 	void Output();
 	void Input(const char* N, int a, const char* C, const char* P);
 	~Programmer();
+	void Salary();
 };
 

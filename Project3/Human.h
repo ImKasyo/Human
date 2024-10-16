@@ -9,6 +9,6 @@ public:
 	Human(const char*, int);
 	void Output();
 	void Input();
-
+	void Salary();
 	~Human();
 };

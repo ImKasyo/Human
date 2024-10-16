@@ -9,5 +9,6 @@ public:
 	~Teacher();
 	void Input(const char* N, int a, const char* S);
 	void Output();
+	void Salary();
 };
 
