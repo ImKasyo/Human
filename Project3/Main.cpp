@@ -28,5 +28,31 @@ int main()
 
 
 
+	Human* human = nullptr;
+	int choiñe = 0;
+
+	cout << "1. Choiñe Teacher" << endl;;
+	cout << "2. Choiñe Designer" << endl;
+	cout << "3. Choiñe Programmer" << endl;
+	cout << "4. Choiñe Student" << endl;
+
+	cin >> choiñe;
+
+	switch (choiñe) {
+	case 1:
+		human = new Teacher;
+		break;
+	case 2:
+		human = new Disagner;
+		break;
+	case 3:
+		human = new Programmer;
+		break;
+	case 4:
+		human = new Student;
+		break;
+	}
+	human->Output();
+	human->Salary();
 
 }

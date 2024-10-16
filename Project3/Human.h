@@ -7,8 +7,8 @@ protected:
 public:
 	Human();
 	Human(const char*, int);
-	void Output();
+	virtual void Output();
 	void Input();
-	void Salary();
+	virtual void Salary();
 	~Human();
 };
