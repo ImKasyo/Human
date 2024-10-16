@@ -52,7 +52,6 @@ int main()
 		human = new Student;
 		break;
 	}
-	human->Output();
 	human->Salary();
 
 }
