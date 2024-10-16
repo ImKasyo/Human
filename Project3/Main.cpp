@@ -8,23 +8,23 @@ using namespace std;
 
 int main()
 {
-	Student a("Oleg",19,"Itstep",2000);
-	a.Output();
-	a.Input("Irina",20,"Politex",200);
-	a.Output();
+	//Student a("Oleg",19,"Itstep",2000);
+	//a.Output();
+	//a.Input("Irina",20,"Politex",200);
+	//a.Output();
 
-	Programmer b("Maks",30,"Trainee","Apple");
-	b.Output();
-	b.Input("Jack", 19, "Junior", "Samsung");
-	b.Output();
+	//Programmer b("Maks",30,"Trainee","Apple");
+	//b.Output();
+	//b.Input("Jack", 19, "Junior", "Samsung");
+	//b.Output();
 
-	Teacher c("Ira", 43, "Math");
-	c.Output();
-	c.Input("Mihael", 32, "Unity");
-	c.Output();
+	//Teacher c("Ira", 43, "Math");
+	//c.Output();
+	//c.Input("Mihael", 32, "Unity");
+	//c.Output();
 
-	Disagner d("Katya", 25, "Trainee", "Apple");
-	d.Output();
+	//Disagner d("Katya", 25, "Trainee", "Apple");
+	//d.Output();
 
 
 
